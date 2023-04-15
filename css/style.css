@@ -1,16 +1,8 @@
-:root {
-    --primary: #A5C882;
-    --secondary: #D33F49;
-    --light: #fff;
-    --dark: #000;
-    --diabled: #e7e7e7;
-}
-
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     height: 100vh;
-    background-color: var(--diabled);
+    background-color: gainsboro;
 }
 
 *:first-letter {
@@ -24,7 +16,7 @@ body {
 .list {
     margin: 25px auto;
     padding: 25px;
-    background-color: var(--light);
+    background-color: wheat;
     width: 100%;
     max-width: 350px;
 }
@@ -72,7 +64,7 @@ form {
 input {
     border: none;
     padding-left: 10px;
-    background-color: var(--diabled);
+    background-color: gainsboro;
 }
 
 input:focus {
@@ -90,24 +82,24 @@ input:focus {
     height: 35px;
     border-radius: 50%;
     font-size: 18px;
-    background-color: var(--diabled);
+    background-color:gainsboro;
 }
 
 .orderButton {
-    background-color: var(--secondary);
-    color: var(--light);
+    background-color: red;
+    color: whitesmoke;
 }
 
 .task {
-    background-color: var(--primary);
+    background-color: green;
     padding: 15px;
     margin-top: 15px;
-    color: var(--light);
+    color: whitesmoke;
     cursor: pointer;
 }
 
 .done {
-    background-color: var(--diabled);
+    background-color: oldlace;
     text-decoration: line-through;
-    color: var(--dark);
+    color: black;
 }
